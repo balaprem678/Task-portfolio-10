@@ -670,7 +670,29 @@ body {
 .Programs-imgbox img {
   width: 130%;
 }
-/* /* Programs-Section-Start */
+/* Programs-Section-Start */
+
+/* Company-Logo-Start */
+.client-logo{
+  background-color: #ccccccc4;
+}
+.client-logo .row {
+  padding: 0;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.client-logo-card {
+  margin: 0 15px;
+}
+.client-image img:hover{
+  transition: 0.5s linear;
+  width: 120%;
+  color:#3f0066
+
+}
+/* Company-Logo-End */
 
 /* Footer-Section-Start*/
 
