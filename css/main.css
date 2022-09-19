@@ -290,22 +290,17 @@ body {
 /* Interviews-Section-End */
 
 /* HackerHac-Section-Start */
-.hackerhac {
-  display: flex;
-  margin-bottom: 100px;
+.hacker .row{
+  padding: 0;
 }
-.hackerhac-note {
-  display: flex;
-  margin-top: 25px;
-}
-.home-screen-left h1 {
+.home-screen-left h4 {
   margin: 0px;
   font-weight: 700;
   color: #f2291a;
   text-transform: uppercase;
   font-size: 16px;
 }
-.home-screen-left h1 span {
+.home-screen-left h4 span {
   background: #f2291a;
   color: #fff;
   width: 30px;
@@ -317,38 +312,25 @@ body {
   transition: 0.4s;
 }
 
-.hackerhac-location,
-.hackerhac-message,
-.hackerhac-inbox {
+.hack-box,
+.hack-box,
+.hack-box,
+.hack-box {
   display: flex;
   margin-top: 15px;
 }
-.hackerhac-note img,
-.hackerhac-location img,
-.hackerhac-message img,
-.hackerhac-inbox img {
-  margin-right: 10px;
+.hack-box p{
+  margin-top: 15px;
 }
-.hackerhac-note p,
-.hackerhac-location p,
-.hackerhac-message p,
-.hackerhac-inbox p {
-  font-size: 12px;
-  line-height: 1.5;
-  font-weight: 400;
-  margin-top: 2px;
-}
-.hacker-icon-1,
-.hacker-icon-2,
-.hacker-icon-3,
-.hacker-icon-4 {
-  width: 64px;
-  height: 64px;
-}
+
 .home-screen-right {
   background: url("../images/screen.png") no-repeat bottom right;
-  background-size: 96%;
+  background-size: 100%;
   min-height: 395px;
+}
+.home-screen-right img{
+  width: 500px;
+    margin: 20px 0 0 0;
 }
 .home-screen-right .screen-1 {
   width: 70%;
