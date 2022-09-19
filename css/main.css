@@ -41,11 +41,12 @@ body {
 /* First-Banner-Section */
 
 .banner_section {
-  background: url(../images/header-bg.png) no-repeat bottom center, radial-gradient(circle, #770098, #4d007a, #37005b);
-    background-size: 100%;
+  background: url(../images/header-bg.png) no-repeat bottom center,
+    radial-gradient(circle, #770098, #4d007a, #37005b);
+  background-size: 100%;
 }
 .how-it-works:hover,
-.join-the-community:hover{
+.join-the-community:hover {
   transition: 0.5s;
   transform: scale(1.1);
 }
@@ -293,9 +294,9 @@ body {
   display: flex;
   margin-bottom: 100px;
 }
-.home-screen-left {
-  width: 41%;
-  margin: 89px 0 0 97px;
+.hackerhac-note {
+  display: flex;
+  margin-top: 25px;
 }
 .home-screen-left h1 {
   margin: 0px;
@@ -315,10 +316,7 @@ body {
   border-radius: 100px;
   transition: 0.4s;
 }
-.hackerhac-note {
-  display: flex;
-  margin-top: 25px;
-}
+
 .hackerhac-location,
 .hackerhac-message,
 .hackerhac-inbox {
@@ -351,7 +349,6 @@ body {
   background: url("../images/screen.png") no-repeat bottom right;
   background-size: 96%;
   min-height: 395px;
-  width: 670px;
 }
 .home-screen-right .screen-1 {
   width: 70%;
@@ -558,25 +555,18 @@ body {
   margin: 4px 0 0 0;
   line-height: 22px;
 }
-.text-icon-1 {
-  position: relative;
-  top: 170px;
-  left: 170px;
-}
 .text-icon-1 a {
   display: inline-block;
   text-align: center;
   font-size: 14px;
   text-decoration: none;
   padding: 13px 29px;
+  margin: 30px 0;
   border-radius: 100px;
   background: orangered;
   color: #fff;
 }
 .Programs-textbox {
-  position: relative;
-  left: 0px;
-  top: 8px;
   font-size: 18px;
   color: purple;
 }
@@ -592,7 +582,7 @@ body {
 /* Programs-Section-Start */
 
 /* Company-Logo-Start */
-.client-logo{
+.client-logo {
   background-color: #ccccccc4;
   padding-top: 20px;
 }
