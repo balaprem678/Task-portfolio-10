@@ -12,8 +12,6 @@ body {
 /* Navigation-Start */
 .navbar {
   background-color: #3f0066;
-  position: sticky;
-  top: 0;
   z-index: 1;
 }
 .navbar-brand span {
@@ -25,8 +23,10 @@ body {
 .form-control {
   font-size: 13px;
 }
-.collapse ul li a {
+
+.navbar-light .navbar-nav .nav-link {
   font-size: 13px;
+  color: #fff;
 }
 .btn-danger {
   background-color: orangered;
@@ -44,6 +44,57 @@ body {
   background: url(../images/header-bg.png) no-repeat bottom center,
     radial-gradient(circle, #770098, #4d007a, #37005b);
   background-size: 100%;
+}
+.banner_section .banner-text h3 {
+  color: #fff;
+  border-bottom: 1px dashed #03a9f4;
+  display: inline-block;
+  padding: 5px;
+  text-shadow: 2px 2px 4px #29303b;
+  margin-top: 0px;
+}
+.banner_section .banner-text h2 {
+  color: #af85f9;
+  font-size: 55px;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.banner_section .banner-text p {
+  color: #fff;
+  padding: 5px;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.banner_sectio_btn{
+  padding: 0;
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+.join-the-community button {
+  color: #fff;
+  background: #f3291a;
+  padding: 10px 4px;
+  width: 200px;
+  border: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+.how-it-works button {
+  color: #fff;
+  background: #9e67ff;
+  padding: 10px 10px;
+  width: 200px;
+  border: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: 0.4s;
 }
 .how-it-works:hover,
 .join-the-community:hover {
@@ -290,7 +341,7 @@ body {
 /* Interviews-Section-End */
 
 /* HackerHac-Section-Start */
-.hacker .row{
+.hacker .row {
   padding: 0;
 }
 .home-screen-left h4 {
@@ -319,7 +370,7 @@ body {
   display: flex;
   margin-top: 15px;
 }
-.hack-box p{
+.hack-box p {
   margin-top: 15px;
 }
 
@@ -328,9 +379,9 @@ body {
   background-size: 100%;
   min-height: 395px;
 }
-.home-screen-right img{
-  width: 500px;
-    margin: 20px 0 0 0;
+.home-screen-right img {
+  width: 300px;
+  margin: 20px 0 0 0;
 }
 .home-screen-right .screen-1 {
   width: 70%;
@@ -349,6 +400,7 @@ body {
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   line-height: 40px;
+  margin-top: 50px;
 }
 .section-header {
   text-align: center;
@@ -370,7 +422,6 @@ body {
   font-size: 43px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  margin: 0px 290px;
 }
 
 .enter-prices .col-lg-3 {
@@ -559,7 +610,7 @@ body {
   margin-top: 26px;
 }
 .Programs-imgbox img {
-  width: 130%;
+  width: 100%;
 }
 /* Programs-Section-Start */
 
